@@ -22,16 +22,8 @@ public class Exercise25 {
     }
 
     public static void main(String[] args) {
-        // Crear y poblar la pila
-        Stack<String> stack = createStack();
 
-        // Recorrer y vaciar la pila
-        printAndEmptyStack(stack);
-
-        // Comprobación para garantizar que la pila está vacía
-        if (stack.isEmpty()) {
-            System.out.println("La pila está vacía.");
-        }
+        printAndEmptyStack(createStack());
     }
 
 
